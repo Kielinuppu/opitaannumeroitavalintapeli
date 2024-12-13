@@ -145,9 +145,6 @@ h1, h2 {
 @media (max-width: 600px) {
     .number-buttons {
         gap: 10px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
     }
 
     /* Level 3 tasan 5 nappia per rivi */
@@ -163,6 +160,14 @@ h1, h2 {
         height: 45px;
         font-size: 1.5em;
         margin: 3px;
-        aspect-ratio: 1;   /* Varmistetaan pyöreä muoto myös mobiilissa */
+    }
+
+    .level-button, #check-button {
+        padding: 10px 20px;
+        font-size: 100%;
+    }
+    
+    .star-icon {
+        width: 35px;
     }
 }
