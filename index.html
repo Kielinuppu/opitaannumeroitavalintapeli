@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPITAAN NUMEROITA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game">
+        <div id="start-screen" class="active">
+            <h1>OPITAAN NUMEROITA</h1>
+            <button class="level-button" data-level="1">TASO 1</button>
+            <button class="level-button" data-level="2">TASO 2</button>
+            <button class="level-button" data-level="3">TASO 3</button>
+        </div>
+
+        <div id="question-container">
+            <h2>KUINKA MONTA?</h2>
+            <div class="image-container">
+                <img id="question-image" src="" alt="Kuinka monta?">
+            </div>
+            <div class="number-buttons"></div>
+            <div id="controls">
+                <button id="check-button" disabled>TARKISTA</button>
+                <img id="next-button" src="nuoli.png" alt="Seuraava">
+            </div>
+            <div id="stars-container"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
